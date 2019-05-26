@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+section.main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+.lato-100 {
+  font-family: 'Lato', sans-serif!important;
+  font-weight: 100!important;
+}
+
+.logo {
+  letter-spacing: -0.05em;
+  font-size: 150px;
+  margin: 0;
+}
+
+.logo.small {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.logo b {
+  font-weight: 700;
+}
+
+.desc {
+  font-size: 40px;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.bday {
+  font-size: 200px;
+  margin: 0px;
+  margin-top: -40px;
+}
+
+em.div {
+  font-size:14px;
+}
+
