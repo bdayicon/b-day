@@ -70,7 +70,7 @@ class App extends Component {
         from: myAddress,
         methodName: 'getBDay',
         params: {},
-        to: config.CONTRACT_ADDRESS,
+        to: window.CONTRACT_ADDRESS,
       })
     ).execute()
 
@@ -93,7 +93,7 @@ class App extends Component {
       const { label, BDay } = inputData
       const txObj = sendTxBuild({
         from: myAddress,
-        to: config.CONTRACT_ADDRESS,
+        to: window.CONTRACT_ADDRESS,
         methodName: 'setBDay',
         params: {
           _lable_height: `${label}${BDay}`

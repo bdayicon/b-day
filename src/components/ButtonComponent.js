@@ -32,6 +32,7 @@ function ButtonComponent({ mode, buttonClick }) {
       break
     default:
       break;
+      
   }
   return <Button onClick={buttonClick} variant={variant} color="primary" className={classes.button}>{label}</Button>
 }
